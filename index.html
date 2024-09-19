@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="" id="foto1">
+            <p>Um dia qualquer você vai ate uma biblioteca em uma estante você encontra dois livros dourados, sente que pode pegar apenas um, escolha entre 1 deles
+            </p>
+            <button class="btn-proximo" data-proximo="1">Azul</button>
+            <button class="btn-proximo" data-proximo="2">Vermelho</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao abrir o livro azul o vermelho some, Ele mostra as cordenadas de uma casa abandonada </p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista na casa abandonada </button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Ao abrir o livro o azul some e no vermelho esta escrito a localização de uma igreja abandonada</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar e ir estudar em casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao chegar na casa abandonada você encontra uma lampada e ao esfregar aparece um genio que te oferece duas ofertas e tu só podes escolher uma, mas cuidado ao fazer mal uso de tuas habilidades pode haver uma punição severa</p>
+            <button class="btn-proximo" data-proximo="7">A habilidade de ler mentes de qualquer pessoa ao seu redor e mudar suas memorias</button>
+            <button class="btn-proximo" data-proximo="7">A inteligencia aumentada em 200QI mais a possibilidade de aprender qualquer coisa instantaneamente</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Na igreja abandonada voce encontra um livro que te oferece duas habilidades</p>
+            <button class="btn-proximo" data-proximo="7">Receber os poderes de um personagem de quadrinhos</button>
+            <button class="btn-proximo" data-proximo="7">Super velocidade</button>
+        </div>
+
+
+        <div class="passo" id="passo-7">
+            <p>Você escolhe sua habilidade, agora tu tens poder, Oque fazer</p>
+            <button class="btn-proximo" data-proximo="9">Usar de maneira neutra</button>
+            <button class="btn-proximo" data-proximo="10">Usar de maneira egoista</button>
+            <button class="btn-proximo" data-proximo="11">Usar apenas ao bem</button>
+        </div>
+
+
+        <div class="passo" id="passo-9">
+            <p>Voce usa seus poderes de maneira neutra........ ate que derrepente acorda</p>
+            <button class="btn-proximo" data-proximo="0">sim</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Voce usa de maneira egoista faz de tudo de ruim e domina o mundo, porem perde seus poderes e se ve preso de uma lampada, ate que depois de seculos alguem esfrega a lampada </p>
+            <button class="btn-proximo" data-proximo="3">Sair da lampada </button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Por sua bondade voce é levado a uma cidade bonta e ancestral cheio de gente legal</p>
+        </div>
+
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
